@@ -1,14 +1,27 @@
-# Flujo de Bugs QA en Jira
+# Registro de usuario sin mensaje de confirmación
 
-1. Identificación del bug durante testing funcional
-2. Creación del bug en Jira con pasos reproducibles
-3. Estado inicial: Open / Por hacer
-4. Desarrollo del fix (In Progress)
-5. Bug marcado como Fixed
-6. Retesting por parte de QA
-7. Si el bug está resuelto:
-   - QA agrega comentario de validación
-   - Bug se mueve a Closed / Listo
-8. Si el bug persiste:
-   - QA documenta el resultado del retesting
-   - Bug se reabre para corrección
+## Tipo de incidencia
+Bug
+
+## Resumen
+El botón "Registrar" no muestra un mensaje de confirmación ni redirige al login tras un registro exitoso.
+
+## Steps to Reproduce
+1. Ir a la página de Registro
+2. Completar los campos obligatorios con datos válidos
+3. Hacer clic en el botón "Registrar"
+
+## Expected Result
+El sistema debería mostrar un mensaje de confirmación y redirigir al usuario a la pantalla de login.
+
+## Actual Result
+El sistema no muestra ningún mensaje de confirmación ni redirige al usuario.
+
+## Severity
+Alta – bloquea el onboarding de usuarios
+
+## Priority
+Alta
+
+## Notas
+Incidencia documentada y gestionada en Jira, incluyendo retesting y seguimiento del workflow.
