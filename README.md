@@ -12,14 +12,14 @@ Este repositorio documenta mi práctica aplicada utilizando Jira para testing ma
 
 ## Estructura del repositorio
 
-practica-qa-jira/
-│
-├── README.md
-│
-├── reportes-bugs/
-│   ├── login_credenciales_invalidas.md
-│   ├── registro_sin_confirmacion.md
-│   └── transferencia_monto_invalido_mensaje.md
-│
-└── workflow-qa/
-    └── flujo_bugs_jira.md
+    practica-qa-jira/
+    │
+    ├── README.md
+    │
+    ├── reportes-bugs/
+    │   ├── login_credenciales_invalidas.md
+    │   ├── registro_sin_confirmacion.md
+    │   └── transferencia_monto_invalido_mensaje.md
+    │
+    └── workflow-qa/
+        └── flujo_bugs_jira.md
